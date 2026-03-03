@@ -37,6 +37,7 @@ ksp("androidx.room:room-compiler:2.6.1")
 implementation("com.google.accompanist:accompanist-permissions:0.34.0")
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
 implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 Código Core 1: El Prompt Maestro (ClinicalPrompt.kt)
 code
 Kotlin
@@ -73,6 +74,7 @@ object ClinicalPrompt {
         """.trimIndent()
     }
 }
+
 Código Core 2: Base de Datos Encriptada (AppDatabase.kt)
 code
 Kotlin
@@ -111,6 +113,7 @@ abstract class AppDatabase : RoomDatabase() {
         }
     }
 }
+
 Código Core 3: Borrado Seguro (NoteDetailScreen.kt snippet)
 code
 Kotlin
